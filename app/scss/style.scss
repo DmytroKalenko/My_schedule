@@ -1,3 +1,23 @@
 @import "vars";
 @import "global";
 @import "fonts";
+.container {
+    .days {
+        background-color: brown;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .days__item {
+            background-color: aquamarine;
+            height: 250px;
+            width: 200px;
+            margin: 10px;
+            .item__title {
+                background-color: chocolate;
+            }
+            ul {
+                background-color: crimson;
+            }
+        }
+    }
+}
