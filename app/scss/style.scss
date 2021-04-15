@@ -2,30 +2,34 @@
 @import "global";
 @import "fonts";
 .container {
-  .days {
-    background-color: brown;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    .days__item {
-      background-color: aquamarine;
-      height: 250px;
-      width: 200px;
-      margin: 10px;
-      padding: 20px;
-      padding-left: 30px;
-      border: 2px solid;
-      .item__title {
-        background-color: chocolate;
-        margin: 25px 0 15px
-        
-      }
-      ul {
-        background-color: crimson;
-        li{
-            padding: 5px;
+    .days {
+        background-color: brown;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .days__item {
+            background-color: aquamarine;
+            height: 250px;
+            width: 200px;
+            margin: 10px;
+            padding: 20px;
+            padding-left: 30px;
+            border: 2px solid;
+            .item__title {
+                background-color: chocolate;
+                margin: 25px 0 15px
+            }
+            .lists {
+                display: flex;
+                justify-content: space-between;
+                ul {
+                    background-color: crimson;
+                    list-style: none;
+                    li {
+                        padding: 5px;
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
