@@ -4,42 +4,62 @@ Arr = {
     "para_week": {
         "Days": [{
                 "Monday": {
-                    "8.1": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10.1": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12.1": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+
                 }
             },
             {
                 "Tuesday": {
-                    "8.1": "",
-                    "10.1": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (W)",
-                    "12.1": "SEMINARIUM MAGISTERSKIE (S)",
-                    "14.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+
                 }
             },
             {
                 "Wednesday": {
-                    "8.1": "",
-                    "10.1": "",
-                    "12.1": "",
-                    "14.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
                 }
             },
             {
                 "Thursday": {
-                    "8.1": "",
-                    "10.1": "",
-                    "13.1": "JĘZYK ANGIELSK",
-                    "15.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
                 }
             },
             {
                 "Friday": {
-                    "8.1": "ZARZĄDZANIE PROJEKTEM (W)",
-                    "10.1": "",
-                    "13.1": "",
-                    "15.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
                 }
             }
         ]
@@ -84,7 +104,7 @@ Arr = {
 
 }
 const hours = document.querySelectorAll('.days .lists .houers li');
-
+const lessons = document.querySelectorAll('.days .lists .lessons li');
 //Создаю функцию которая берет даные о днях с базы и присваивает дни в заголовки ДЕНЬ карточек
 var Days = [];
 var DaysKeys = [];
@@ -106,7 +126,7 @@ function SetDAYS() {
 SetDAYS();
 
 
-//Создаю функцию которая берет даные о часах с базы и присваивает часы в карточки
+//Создаю функцию которая берет даные о часах и расписании с базы и присваивает часы и расписание в карточки
 
 function SetHours() {
     var HoursKeys = [];
@@ -128,6 +148,24 @@ function SetHours() {
     for (var x = 0; x < hours.length; x++) {
         hours[x].textContent = DaysHoursValuesString[x];
     };
+
+    // получаем расписание и присваиваем значания с базы к карточкам на сайте 
+    var lessonsINdays = [];
+    for (var b = 0; b < HoursKeys.length; b++) {;
+        lessonsINdays.push(Object.values(HoursKeys[b]));
+
+    };
+
+    var lessonsINdaysString = [];
+    for (var z = 0; z < lessonsINdays.length; z++) {
+        for (var h = 0; h < lessonsINdays[z].length; h++)
+            lessonsINdaysString.push(lessonsINdays[z][h]);
+    };
+
+
+    for (var c = 0; c < lessons.length; c++) {
+        lessons[c].textContent = lessonsINdaysString[c];
+    };
 };
-// визиваю функцию присвоение часов
+// визиваю функцию присвоение часов и расписания
 SetHours();
