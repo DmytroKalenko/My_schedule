@@ -3,104 +3,109 @@ Arr = {
 
     "para_week": {
         "Days": [{
-            "Monday": {
-                "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                "Monday": {
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
 
 
 
+                }
+            },
+            {
+                "Tuesday": {
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+
+                }
+            },
+            {
+                "Wednesday": {
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+                }
+            },
+            {
+                "Thursday": {
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+                }
+            },
+            {
+                "Friday": {
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                }
             }
-        },
-        {
-            "Tuesday": {
-                "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-
-
-
-            }
-        },
-        {
-            "Wednesday": {
-                "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-
-
-            }
-        },
-        {
-            "Thursday": {
-                "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-
-
-            }
-        },
-        {
-            "Friday": {
-                "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-            }
-        }
         ]
     },
     "Niepara_week": {
         "Days": [{
-            "Monday": {
-                "8.1": "",
-                "10.1": "",
-                "12.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (ĆW)",
-                "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)"
-            }
-        },
-        {
-            "Tuesday": {
-                "8.1": "SYSTEMY MAGAZYNOWE (W)",
-                "10.1": "BADANIA MARKETINGOWE W LOGISTYCE (W)",
-                "12.1": "SEMINARIUM MAGISTERSKIE (S)",
-                "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (W)"
-            }
-        },
-        {
-            "Wednesday": {
+                "Monday": {
+                    "8.1": "",
+                    "10.1": "",
+                    "12.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (ĆW)",
+                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)"
+                }
+            },
+            {
+                "Tuesday": {
+                    "8.1": "SYSTEMY MAGAZYNOWE (W)",
+                    "10.1": "BADANIA MARKETINGOWE W LOGISTYCE (W)",
+                    "12.1": "SEMINARIUM MAGISTERSKIE (S)",
+                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (W)"
+                }
+            },
+            {
+                "Wednesday": {
 
+                }
+            },
+            {
+                "Thursday": {
+                    "13.1": "JĘZYK ANGIELSK"
+                }
+            },
+            {
+                "Friday": {
+                    "8.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (W)",
+                    "10.1": "ZARZĄDZANIE PROJEKTEM (ĆW)",
+                    "12.1": "",
+                    "14.1": ""
+                }
             }
-        },
-        {
-            "Thursday": {
-                "13.1": "JĘZYK ANGIELSK"
-            }
-        },
-        {
-            "Friday": {
-                "8.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (W)",
-                "10.1": "ZARZĄDZANIE PROJEKTEM (ĆW)",
-                "12.1": "",
-                "14.1": ""
-            }
-        }
         ]
+    },
+    'weeks': {
+        "para": [19.04, 20.04, 21.04, 22.04, 23.04],
+        "niepara": [26.04, 27.04, 28.04, 29.04, 30.04]
     }
+
 
 }
 const hours = document.querySelectorAll('.days .lists .houers li');
@@ -137,8 +142,7 @@ function SetHours() {
     };
 
     var DaysHoursValues = [];
-    for (var h = 0; h < HoursKeys.length; h++) {
-        ;
+    for (var h = 0; h < HoursKeys.length; h++) {;
         DaysHoursValues.push(Object.keys(HoursKeys[h]));
     };
 
@@ -154,8 +158,7 @@ function SetHours() {
 
     // получаем расписание и присваиваем значания с базы к карточкам на сайте 
     var lessonsINdays = [];
-    for (var b = 0; b < HoursKeys.length; b++) {
-        ;
+    for (var b = 0; b < HoursKeys.length; b++) {;
         lessonsINdays.push(Object.values(HoursKeys[b]));
 
     };
@@ -198,15 +201,59 @@ SetHours();
 // }
 
 
+var date = new Date();
+var n = date.getDay();
+var options = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+};
+var CurrentDay = date.toLocaleString("en", options);
+
+var Monday = document.querySelector(".days__item[data-day='1'] "),
+    Tuesday = document.querySelector(".days__item[data-day='2'] "),
+    Wednesday = document.querySelector(".days__item[data-day='3'] "),
+    Thursday = document.querySelector(".days__item[data-day='4'] "),
+    Friday = document.querySelector(".days__item[data-day='5'] ");
+if (n == 6) {
+    Monday.classList.add("curent");
+    document.querySelector(".days__item[data-day='1'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='1'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
+} else if (n == 2) {
+    Tuesday.classList.add("curent");
+    document.querySelector(".days__item[data-day='2'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='2'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
+} else if (n == 3) {
+    Wednesday.classList.add("curent");
+    document.querySelector(".days__item[data-day='3'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='3'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
+} else if (n == 4) {
+    Thursday.classList.add("curent");
+    document.querySelector(".days__item[data-day='4'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='4'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
+} else if (n == 5) {
+    Friday.classList.add("curent");
+    document.querySelector(".days__item[data-day='5'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='5'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
+};
+
+document.querySelector(".days__item[data-day='1'] .item__title ").style.color = '#148da0';
+document.querySelector(".days__item[data-day='2'] .item__title ").style.color = '#609c54';
+document.querySelector(".days__item[data-day='3'] .item__title ").style.color = '#c87c65';
+document.querySelector(".days__item[data-day='4'] .item__title ").style.color = '#f5743a';
+document.querySelector(".days__item[data-day='5'] .item__title ").style.color = '#b470a1';
 
 
-
-// var date = new Date();
-// var n = date.getDay();
-a = document.querySelector(".days__item[data-day='1'] ")
-a.classList.add('curent');
+//ПРоверяем какой день месяц и год
 
 
-// if (n==6){
-//     document.querySelector(".days__item[data-day='1'] ").classList.add("current")
-// };
+var date2 = new Date();
+
+var options = {
+    day: 'numeric',
+    month: 'numeric',
+};
+var DayActualy = date2.toLocaleString("ru", options);
+var DayActualyNumb = Number(DayActualy);
+var week = Arr.weeks.para
+
+for (i in week) {
+    if (DayActualyNumb == week[i]) { alert('Parzysty') } else { alert('NIEParzysty') }
+
+
+}

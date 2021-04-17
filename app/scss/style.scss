@@ -1,33 +1,56 @@
 @import "vars";
 @import "global";
 @import "fonts";
+body {
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container {
     .schedul__blok {
         display: flex;
         flex-direction: column;
         align-items: center;
-        .title {}
+        .title {
+            margin-top: 50px;
+            border: 8px solid rgb(148, 115, 169);
+            border-radius: 26px;
+            width: 70%;
+            background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            padding: 10px;
+        }
         .days {
-            background-color: brown;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
-            
             .days__item {
-                background-color: aquamarine;
                 height: 400px;
-                width: 520px;
+                width: 565px;
                 margin: 20px 0;
                 padding: 20px;
                 padding-left: 30px;
-                border: 2px solid;
-                &.curent{
-                    background-color: red;
+                border: 8px solid #9473a9;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                background-color: antiquewhite;
+                border-radius: 26px;
+                &.curent,
+                &:hover {
+                    border: 8px solid #9d00ff;
+                    background-color: aliceblue;
                 }
                 .item__title {
-                    background-color: chocolate;
-                    margin: 25px 0 15px
+                    margin: 5px 0 15px;
+                    text-align: center;
+                    font-size: 23px;
+                    font-weight: bold;
                 }
                 .lists {
                     display: flex;
@@ -35,11 +58,10 @@
                         width: 25%;
                         li {
                             height: 45px;
-                            border: 1px solid;
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            background-color: rgb(220, 200, 20);
+                            border-bottom: 2px solid #a4d5da;
                             &+li {
                                 margin-top: 5px;
                             }
@@ -50,11 +72,10 @@
                         width: 75%;
                         li {
                             height: 45px;
-                            border: 1px solid;
                             display: flex;
                             align-items: center;
                             padding-left: 7px;
-                            background-color: crimson;
+                            border-bottom: 2px solid #a4d5da;
                             &+li {
                                 margin-top: 5px;
                             }
