@@ -3,42 +3,62 @@
     "para_week": {
         "Days": [{
                 "Monday": {
-                    "8.1": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10.1": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12.1": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+
                 }
             },
             {
                 "Tuesday": {
-                    "8.1": "",
-                    "10.1": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (W)",
-                    "12.1": "SEMINARIUM MAGISTERSKIE (S)",
-                    "14.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+
                 }
             },
             {
                 "Wednesday": {
-                    "8.1": "",
-                    "10.1": "",
-                    "12.1": "",
-                    "14.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
                 }
             },
             {
                 "Thursday": {
-                    "8.1": "",
-                    "10.1": "",
-                    "13.1": "JĘZYK ANGIELSK",
-                    "15.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
                 }
             },
             {
                 "Friday": {
-                    "8.1": "ZARZĄDZANIE PROJEKTEM (W)",
-                    "10.1": "",
-                    "13.1": "",
-                    "15.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
                 }
             }
         ]
@@ -46,39 +66,58 @@
     "Niepara_week": {
         "Days": [{
                 "Monday": {
-                    "8.1": "",
-                    "10.1": "",
-                    "12.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (ĆW)",
-                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Tuesday": {
-                    "8.1": "SYSTEMY MAGAZYNOWE (W)",
-                    "10.1": "BADANIA MARKETINGOWE W LOGISTYCE (W)",
-                    "12.1": "SEMINARIUM MAGISTERSKIE (S)",
-                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (W)"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Wednesday": {
-
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Thursday": {
-                    "13.1": "JĘZYK ANGIELSK"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Friday": {
-                    "8.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (W)",
-                    "10.1": "ZARZĄDZANIE PROJEKTEM (ĆW)",
-                    "12.1": "",
-                    "14.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             }
         ]
+    },
+    "weeks": {
+        "para": [19.04, 20.04, 21.04, 22.04, 23.04],
+        "niepara": [26.04, 27.04, 28.04, 29.04, 30.04]
     }
-
 }

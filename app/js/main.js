@@ -265,29 +265,6 @@ function Odd(){
 }
 
 
-
-
-
-// Получаем актуальный день и 4 следующие до масива
-// ArrWithDays = []
-// var date = new Date();
-
-// var options = {
-//     year: 'numeric',
-//     month: 'long',
-//     day: 'numeric',
-// };
-// var CurrentDay = date.toLocaleString("ru", options);
-// ArrWithDays.push(CurrentDay);
-// var a = 0;
-// while (a < 4) {
-//     a++;
-//     date.setDate(date.getDate() + a);
-//     var Time = date.toLocaleString("ru", options);
-//     ArrWithDays.push(Time)
-// }
-
-
 var date = new Date();
 var n = date.getDay();
 var options = {
