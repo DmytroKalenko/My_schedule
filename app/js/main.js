@@ -67,36 +67,52 @@ Arr = {
     "Niepara_week": {
         "Days": [{
                 "Monday": {
-                    "8.1": "",
-                    "10.1": "",
-                    "12.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (ĆW)",
-                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Tuesday": {
-                    "8.1": "SYSTEMY MAGAZYNOWE (W)",
-                    "10.1": "BADANIA MARKETINGOWE W LOGISTYCE (W)",
-                    "12.1": "SEMINARIUM MAGISTERSKIE (S)",
-                    "14.1": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (W)"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Wednesday": {
-
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Thursday": {
-                    "13.1": "JĘZYK ANGIELSK"
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             },
             {
                 "Friday": {
-                    "8.1": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (W)",
-                    "10.1": "ZARZĄDZANIE PROJEKTEM (ĆW)",
-                    "12.1": "",
-                    "14.1": ""
+                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
+                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
                 }
             }
         ]
@@ -115,67 +131,138 @@ const lessons = document.querySelectorAll('.days .lists .lessons li');
 var Days = [];
 var DaysKeys = [];
 
-function SetDAYS() {
-    for (var i = 0; i < Day.length; i++) {
-        Days.push(Arr.para_week.Days[i])
+// Парная неделя 
+function Even(){
+    function SetDAYS() {
+        for (var i = 0; i < Day.length; i++) {
+            Days.push(Arr.para_week.Days[i])
+        };
+    
+        for (var k = 0; k < Days.length; k++) {
+            DaysKeys.push(Object.keys(Days[k])[0])
+        };
+    
+        for (var l = 0; l < Day.length; l++) {
+            Day[l].textContent = DaysKeys[l];
+        };
     };
-
-    for (var k = 0; k < Days.length; k++) {
-        DaysKeys.push(Object.keys(Days[k])[0])
+    // визиваю функцию присвоение дней 
+    SetDAYS();
+    
+    
+    
+    //Создаю функцию которая берет даные о часах и расписании с базы и присваивает часы и расписание в карточки
+    
+    function SetHours() {
+        var HoursKeys = [];
+        for (var j = 0; j < Days.length; j++) {
+            HoursKeys.push(Object.values(Days[j])[0]);
+        };
+    
+        var DaysHoursValues = [];
+        for (var h = 0; h < HoursKeys.length; h++) {;
+            DaysHoursValues.push(Object.keys(HoursKeys[h]));
+        };
+    
+        var DaysHoursValuesString = [];
+        for (var z = 0; z < DaysHoursValues.length; z++) {
+            for (var h = 0; h < DaysHoursValues[z].length; h++)
+                DaysHoursValuesString.push(DaysHoursValues[z][h]);
+        };
+    
+        for (var x = 0; x < hours.length; x++) {
+            hours[x].textContent = DaysHoursValuesString[x];
+        };
+    
+        // получаем расписание и присваиваем значания с базы к карточкам на сайте 
+        var lessonsINdays = [];
+        for (var b = 0; b < HoursKeys.length; b++) {;
+            lessonsINdays.push(Object.values(HoursKeys[b]));
+    
+        };
+    
+        var lessonsINdaysString = [];
+        for (var z = 0; z < lessonsINdays.length; z++) {
+            for (var h = 0; h < lessonsINdays[z].length; h++)
+                lessonsINdaysString.push(lessonsINdays[z][h]);
+        };
+    
+    
+        for (var c = 0; c < lessons.length; c++) {
+            lessons[c].textContent = lessonsINdaysString[c];
+        };
     };
+    // визиваю функцию присвоение часов и расписания
+    SetHours();
 
-    for (var l = 0; l < Day.length; l++) {
-        Day[l].textContent = DaysKeys[l];
+
+} 
+
+
+// Не парная неделя 
+function Odd(){
+    function SetDAYS() {
+        for (var i = 0; i < Day.length; i++) {
+            Days.push(Arr.Niepara_week.Days[i])
+        };
+    
+        for (var k = 0; k < Days.length; k++) {
+            DaysKeys.push(Object.keys(Days[k])[0])
+        };
+    
+        for (var l = 0; l < Day.length; l++) {
+            Day[l].textContent = DaysKeys[l];
+        };
     };
-};
-// визиваю функцию присвоение дней 
-SetDAYS();
-
-
-
-//Создаю функцию которая берет даные о часах и расписании с базы и присваивает часы и расписание в карточки
-
-function SetHours() {
-    var HoursKeys = [];
-    for (var j = 0; j < Days.length; j++) {
-        HoursKeys.push(Object.values(Days[j])[0]);
+    // визиваю функцию присвоение дней 
+    SetDAYS();
+    
+    
+    
+    //Создаю функцию которая берет даные о часах и расписании с базы и присваивает часы и расписание в карточки
+    
+    function SetHours() {
+        var HoursKeys = [];
+        for (var j = 0; j < Days.length; j++) {
+            HoursKeys.push(Object.values(Days[j])[0]);
+        };
+    
+        var DaysHoursValues = [];
+        for (var h = 0; h < HoursKeys.length; h++) {;
+            DaysHoursValues.push(Object.keys(HoursKeys[h]));
+        };
+    
+        var DaysHoursValuesString = [];
+        for (var z = 0; z < DaysHoursValues.length; z++) {
+            for (var h = 0; h < DaysHoursValues[z].length; h++)
+                DaysHoursValuesString.push(DaysHoursValues[z][h]);
+        };
+    
+        for (var x = 0; x < hours.length; x++) {
+            hours[x].textContent = DaysHoursValuesString[x];
+        };
+    
+        // получаем расписание и присваиваем значания с базы к карточкам на сайте 
+        var lessonsINdays = [];
+        for (var b = 0; b < HoursKeys.length; b++) {;
+            lessonsINdays.push(Object.values(HoursKeys[b]));
+    
+        };
+    
+        var lessonsINdaysString = [];
+        for (var z = 0; z < lessonsINdays.length; z++) {
+            for (var h = 0; h < lessonsINdays[z].length; h++)
+                lessonsINdaysString.push(lessonsINdays[z][h]);
+        };
+    
+    
+        for (var c = 0; c < lessons.length; c++) {
+            lessons[c].textContent = lessonsINdaysString[c];
+        };
     };
-
-    var DaysHoursValues = [];
-    for (var h = 0; h < HoursKeys.length; h++) {;
-        DaysHoursValues.push(Object.keys(HoursKeys[h]));
-    };
-
-    var DaysHoursValuesString = [];
-    for (var z = 0; z < DaysHoursValues.length; z++) {
-        for (var h = 0; h < DaysHoursValues[z].length; h++)
-            DaysHoursValuesString.push(DaysHoursValues[z][h]);
-    };
-
-    for (var x = 0; x < hours.length; x++) {
-        hours[x].textContent = DaysHoursValuesString[x];
-    };
-
-    // получаем расписание и присваиваем значания с базы к карточкам на сайте 
-    var lessonsINdays = [];
-    for (var b = 0; b < HoursKeys.length; b++) {;
-        lessonsINdays.push(Object.values(HoursKeys[b]));
-
-    };
-
-    var lessonsINdaysString = [];
-    for (var z = 0; z < lessonsINdays.length; z++) {
-        for (var h = 0; h < lessonsINdays[z].length; h++)
-            lessonsINdaysString.push(lessonsINdays[z][h]);
-    };
-
-
-    for (var c = 0; c < lessons.length; c++) {
-        lessons[c].textContent = lessonsINdaysString[c];
-    };
-};
-// визиваю функцию присвоение часов и расписания
-SetHours();
+    // визиваю функцию присвоение часов и расписания
+    SetHours();
+}
 
 
 
@@ -239,7 +326,7 @@ document.querySelector(".days__item[data-day='4'] .item__title ").style.color = 
 document.querySelector(".days__item[data-day='5'] .item__title ").style.color = '#b470a1';
 
 
-//ПРоверяем какой день месяц и год
+//Проверяем какой день месяц и год
 
 
 var date2 = new Date();
@@ -250,10 +337,11 @@ var options = {
 };
 var DayActualy = date2.toLocaleString("ru", options);
 var DayActualyNumb = Number(DayActualy);
-var week = Arr.weeks.para
+var EvenWeek = Arr.weeks.para;
 
-for (i in week) {
-    if (DayActualyNumb == week[i]) { alert('Parzysty') } else { alert('NIEParzysty') }
-
-
+for (i in EvenWeek) {
+    if (DayActualyNumb == EvenWeek[i]) { Even();
+    document.querySelector('.schedul__blok .title').innerHTML = "Even Week";
+    } else { Odd();
+        document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" }
 }
