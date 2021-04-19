@@ -1,340 +1,459 @@
 {
     "Groups": {
-        "a": {
-            "para_week": {
-                "Days": [{
-                        "Monday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                        }
-                    },
-                    {
-                        "Tuesday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                        }
-                    },
-                    {
-                        "Wednesday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+        "first": {
+            "subgroup_first": {
+                "para_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "431a група ПАРНИЙ ТИЖДЕНЬ ",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "431 PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
 
 
-                        }
-                    },
-                    {
-                        "Thursday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
 
 
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
                         }
-                    },
-                    {
-                        "Friday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                    ]
+                },
+                "Niepara_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "431a група НЕПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
                         }
-                    }
-                ]
+                    ]
+                }
             },
-            "Niepara_week": {
-                "Days": [{
-                        "Monday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+            "subgroup_second": {
+                "para_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "431B група ПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "431 PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
                         }
-                    },
-                    {
-                        "Tuesday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                    ]
+                },
+                "Niepara_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "431b група НЕПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
                         }
-                    },
-                    {
-                        "Wednesday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                        }
-                    },
-                    {
-                        "Thursday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                        }
-                    },
-                    {
-                        "Friday": {
-                            "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                        }
-                    }
-                ]
+                    ]
+                }
             }
         },
-        "b": {
-            "para_week": {
-                "Days": [{
-                        "Monday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                        }
-                    },
-                    {
-                        "Tuesday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                        }
-                    },
-                    {
-                        "Wednesday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+        "second": {
+            "subgroup_first": {
+                "para_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "432a група ПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "431 PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
 
 
-                        }
-                    },
-                    {
-                        "Thursday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
 
 
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
                         }
-                    },
-                    {
-                        "Friday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB PARA",
-                            "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                            "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                            "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                            "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                    ]
+                },
+                "Niepara_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "432a група НЕПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
                         }
-                    }
-                ]
+                    ]
+                }
             },
-            "Niepara_week": {
-                "Days": [{
-                        "Monday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+            "subgroup_second": {
+                "para_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "432b група ПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "431 PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+
+
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
+                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                            }
                         }
-                    },
-                    {
-                        "Tuesday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                    ]
+                },
+                "Niepara_week": {
+                    "Days": [{
+                            "Monday": {
+                                "8:15 - 10:00": "432B група НЕПАРНИЙ ТИЖДЕНЬ",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Tuesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Wednesday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Thursday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
+                        },
+                        {
+                            "Friday": {
+                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA NIE PARA",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
+                                "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
+                            }
                         }
-                    },
-                    {
-                        "Wednesday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                        }
-                    },
-                    {
-                        "Thursday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                        }
-                    },
-                    {
-                        "Friday": {
-                            "8:15 - 10:00": "BBBBBBBBBBBBBBBBBBB NIE PARA",
-                            "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                            "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                        }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },
-    "para_week": {
-        "Days": [{
-                "Monday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                }
-            },
-            {
-                "Tuesday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                }
-            },
-            {
-                "Wednesday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
 
-
-                }
-            },
-            {
-                "Thursday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-
-
-                }
-            },
-            {
-                "Friday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                    "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                    "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                    "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
-                }
-            }
-        ]
-    },
-    "Niepara_week": {
-        "Days": [{
-                "Monday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                }
-            },
-            {
-                "Tuesday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                }
-            },
-            {
-                "Wednesday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                }
-            },
-            {
-                "Thursday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                }
-            },
-            {
-                "Friday": {
-                    "8:15 - 10:00": "SYSTEMY MAGAZYNOWE (LB)",
-                    "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "12:15 - 14:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "14:15 - 16:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "16:15 - 18:00": "SYSTEMY MAGAZYNOWE (W)",
-                    "18:15 - 20:00": "SYSTEMY MAGAZYNOWE (W)"
-                }
-            }
-        ]
-    },
     "weeks": {
         "para": [19.04, 20.04, 21.04, 22.04, 23.04],
         "niepara": [26.04, 27.04, 28.04, 29.04, 30.04]
