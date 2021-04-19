@@ -242,7 +242,6 @@ Arr = {
 var Days = [];
 var DaysKeys = [];
 
-
 // Парная неделя для первой группы
 function EvenFirstGroup() {
     function SetDAYS() {
@@ -520,20 +519,6 @@ var DayActualy = date2.toLocaleString("ru", options);
 var DayActualyNumb = Number(DayActualy);
 var EvenWeek = Arr.weeks.para;
 
-//Проверяем какой день месяц и год
-// function ChooseGroup() {
-//     Days.length = 0
-//     for (i in EvenWeek) {
-//         if (DayActualyNumb == EvenWeek[i]) {
-//             EvenFirstGroup();
-//             document.querySelector('.schedul__blok .title').innerHTML = "Even Week";
-//         } else {
-//             OddFirstGroup();
-//             document.querySelector('.schedul__blok .title').innerHTML = "Odd Week"
-//         }
-//     };
-// };
-
 
 function ChooseGroup2() {
     Days.length = 0
@@ -562,13 +547,24 @@ function ChooseGroup2() {
 const BtnFirst = document.querySelector('.butons_filtr').firstElementChild;
 const BtnSecond = document.querySelector('.butons_filtr').lastElementChild;
 
+var Monday = document.querySelector(".days__item[data-day='1'] "),
+    Tuesday = document.querySelector(".days__item[data-day='2'] "),
+    Wednesday = document.querySelector(".days__item[data-day='3'] "),
+    Thursday = document.querySelector(".days__item[data-day='4'] "),
+    Friday = document.querySelector(".days__item[data-day='5'] ");
 
 BtnFirst.addEventListener("click", function(e) {
-    Days.length = 0
+    Days.length = 0;
+    Monday.style.opacity = "1";
+    Tuesday.style.opacity = "1";
+    Wednesday.style.opacity = "1";
+    Thursday.style.opacity = "1";
+    Friday.style.opacity = "1";
     for (i in EvenWeek) {
         if (DayActualyNumb == EvenWeek[i]) {
             EvenFirstGroup();
             document.querySelector('.schedul__blok .title').innerHTML = "Even Week Group FIRST";
+
         } else {
             OddFirstGroup();
             document.querySelector('.schedul__blok .title').innerHTML = "Odd Week Group FIRST"
@@ -584,11 +580,7 @@ BtnFirst.addEventListener("click", function(e) {
     };
     var CurrentDay = date.toLocaleString("en", options);
 
-    var Monday = document.querySelector(".days__item[data-day='1'] "),
-        Tuesday = document.querySelector(".days__item[data-day='2'] "),
-        Wednesday = document.querySelector(".days__item[data-day='3'] "),
-        Thursday = document.querySelector(".days__item[data-day='4'] "),
-        Friday = document.querySelector(".days__item[data-day='5'] ");
+
     if (n == 1) {
         Monday.classList.add("curent");
         document.querySelector(".days__item[data-day='1'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='1'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
@@ -610,7 +602,12 @@ BtnFirst.addEventListener("click", function(e) {
 
 });
 BtnSecond.addEventListener("click", function(e) {
-    Days.length = 0
+    Days.length = 0;
+    Monday.style.opacity = "1";
+    Tuesday.style.opacity = "1";
+    Wednesday.style.opacity = "1";
+    Thursday.style.opacity = "1";
+    Friday.style.opacity = "1";
     var date2 = new Date();
 
     var options = {
@@ -625,6 +622,7 @@ BtnSecond.addEventListener("click", function(e) {
         if (DayActualyNumb == EvenWeek[i]) {
             EvenSecondGroup();
             document.querySelector('.schedul__blok .title').innerHTML = "Even Week Group SECOND";
+
         } else {
             OddSecondGroup();
             document.querySelector('.schedul__blok .title').innerHTML = "Odd Week Group SECOND"
@@ -640,11 +638,7 @@ BtnSecond.addEventListener("click", function(e) {
     };
     var CurrentDay = date.toLocaleString("en", options);
 
-    var Monday = document.querySelector(".days__item[data-day='1'] "),
-        Tuesday = document.querySelector(".days__item[data-day='2'] "),
-        Wednesday = document.querySelector(".days__item[data-day='3'] "),
-        Thursday = document.querySelector(".days__item[data-day='4'] "),
-        Friday = document.querySelector(".days__item[data-day='5'] ");
+
     if (n == 1) {
         Monday.classList.add("curent");
         document.querySelector(".days__item[data-day='1'] .item__title ").innerHTML = "Today is " + document.querySelector(".days__item[data-day='1'] .item__title ").innerHTML + " " + "(" + CurrentDay + ")";
@@ -665,6 +659,7 @@ BtnSecond.addEventListener("click", function(e) {
 
 
 });
+
 
 
 

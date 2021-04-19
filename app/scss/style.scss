@@ -13,6 +13,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         .title {
             margin-top: 50px;
             border: 8px solid rgb(148, 115, 169);
@@ -41,6 +42,8 @@ body {
                 cursor: pointer;
                 background-color: antiquewhite;
                 border-radius: 26px;
+                opacity: 0;
+                transition: all .5s;
                 &.curent,
                 &:hover {
                     border: 8px solid #9d00ff;
