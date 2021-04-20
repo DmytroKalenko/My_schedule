@@ -5,56 +5,56 @@
                 "para_week": {
                     "Days": [{
                             "Monday": {
-                                "8:15 - 10:00": "431a група ПАРНИЙ ТИЖДЕНЬ ",
-                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                                "8:15 - 10:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
+                                "10:15 - 12:00": "SYSTEMY MAGAZYNOWE (LB)",
+                                "12:15 - 14:00": "ZARZĄDZANIE PRZEDSIĘBIORSTWEM TRANSPORTOWYM (ĆW)",
+                                "14:15 - 16:00": "",
+                                "16:15 - 18:00": "",
+                                "18:15 - 20:00": ""
                             }
                         },
                         {
                             "Tuesday": {
-                                "8:15 - 10:00": "431 PARA",
-                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                                "8:15 - 10:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
+                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (W)",
+                                "12:15 - 14:00": "SEMINARIUM MAGISTERSKIE (S)",
+                                "14:15 - 16:00": "",
+                                "16:15 - 18:00": "",
+                                "18:15 - 20:00": ""
                             }
                         },
                         {
                             "Wednesday": {
-                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                                "8:15 - 10:00": "",
+                                "10:15 - 12:00": "",
+                                "12:15 - 14:00": "",
+                                "14:15 - 16:00": "JĘZYKI OBCE ANGIELSKI",
+                                "16:15 - 18:00": "",
+                                "18:15 - 20:00": ""
 
 
                             }
                         },
                         {
                             "Thursday": {
-                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                                "8:15 - 10:00": "",
+                                "10:15 - 12:00": "",
+                                "12:15 - 14:00": "",
+                                "14:15 - 16:00": "JĘZYKI OBCE ANGIELSKI",
+                                "16:15 - 18:00": "",
+                                "18:15 - 20:00": ""
 
 
                             }
                         },
                         {
                             "Friday": {
-                                "8:15 - 10:00": "AAAAAAAAAAAAAAAAAAA PARA",
-                                "10:15 - 12:00": "BADANIA OPERACYJNE I TEORIA OPTYMALIZACJI (LB)",
-                                "12:15 - 14:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "14:15 - 16:00": "MODELOWANIE PROCESÓW I SYSTEMÓW LOGISTYCZNYCH (LB)",
-                                "16:15 - 18:00": "BADANIA MARKETINGOWE W LOGISTYCE (ĆW)",
-                                "18:15 - 20:00": "2BADANIA MARKETINGOWE W LOGISTYCE (ĆW)"
+                                "8:15 - 10:00": "ZARZĄDZANIE PROJEKTEM (W)",
+                                "10:15 - 12:00": "ZARZĄDZANIE PROJEKTEM (ĆW)",
+                                "12:15 - 14:00": "",
+                                "14:15 - 16:00": "JĘZYKI OBCE NIEMIECKI",
+                                "16:15 - 18:00": "",
+                                "18:15 - 20:00": ""
                             }
                         }
                     ]
