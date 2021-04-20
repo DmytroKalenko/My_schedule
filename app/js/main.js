@@ -570,14 +570,14 @@ fetch('js/ODDschedule.json')
             Wednesday.style.opacity = "1";
             Thursday.style.opacity = "1";
             Friday.style.opacity = "1";
-            for (i in EvenWeek) {
-                if (DayActualyNumb == EvenWeek[i]) {
+            
+            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
+                if (Flag == true) {
                     EvenFirstGroupSubgroup_first();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirst.value + " " + "Group";
                 } else {
                     OddFirstGroupSubgroup_first();
-                }
-            };
+                };
 
             var date = new Date();
             var n = date.getDay();
@@ -616,16 +616,16 @@ fetch('js/ODDschedule.json')
             Wednesday.style.opacity = "1";
             Thursday.style.opacity = "1";
             Friday.style.opacity = "1";
-            for (i in EvenWeek) {
-                if (DayActualyNumb == EvenWeek[i]) {
+            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
+            
+                if (Flag == true) {
                     EvenFirstGroupSubgroup_second();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirstSubgroup.value + " " + "Group";
 
                 } else {
                     OddFirstGroupFirstSubgroup();
 
-                }
-            };
+                };
             var date = new Date();
             var n = date.getDay();
             var options = {
@@ -670,15 +670,14 @@ fetch('js/ODDschedule.json')
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
 
-            for (i in EvenWeek) {
-                if (DayActualyNumb == EvenWeek[i]) {
+            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
+                if (Flag == true) {
                     EvenSecondGroupSubgroup_first();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLastSubgroup.value + " " + "Group";
                 } else {
                     OddSecondGroupSubgroup_first();
 
-                }
-            };
+                };
 
             var date = new Date();
             var n = date.getDay();
@@ -724,17 +723,16 @@ fetch('js/ODDschedule.json')
             var DayActualy = date2.toLocaleString("ru", options);
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
-
-            for (i in EvenWeek) {
-                if (DayActualyNumb == EvenWeek[i]) {
+            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
+            
+                if (Flag == true) {
                     EvenSecondGroupSubgroup_second();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLast.value + " " + "Group";
 
                 } else {
                     OddSecondGroupSubgroup_second();
 
-                }
-            };
+                };
 
             var date = new Date();
             var n = date.getDay();
