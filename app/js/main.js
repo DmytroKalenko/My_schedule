@@ -570,13 +570,18 @@ fetch('js/ODDschedule.json')
             Wednesday.style.opacity = "1";
             Thursday.style.opacity = "1";
             Friday.style.opacity = "1";
-            
+            var EvenWeek = Arr.weeks.para;
+            var OddWeek = Arr.weeks.niepara;
             var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
+            var OddFlag = OddWeek.indexOf( DayActualyNumb ) != -1 ;
+          
                 if (Flag == true) {
                     EvenFirstGroupSubgroup_first();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirst.value + " " + "Group";
-                } else {
+                };
+                if (OddFlag == true) {
                     OddFirstGroupSubgroup_first();
+                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnFirst.value + " " + "Group";
                 };
 
             var date = new Date();
@@ -616,16 +621,22 @@ fetch('js/ODDschedule.json')
             Wednesday.style.opacity = "1";
             Thursday.style.opacity = "1";
             Friday.style.opacity = "1";
+            var EvenWeek = Arr.weeks.para;
+            var OddWeek = Arr.weeks.niepara;
             var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
-            
+            var OddFlag = OddWeek.indexOf( DayActualyNumb ) != -1 ;
+
                 if (Flag == true) {
                     EvenFirstGroupSubgroup_second();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirstSubgroup.value + " " + "Group";
 
-                } else {
+                };
+                if (OddFlag == true) {
                     OddFirstGroupFirstSubgroup();
+                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnFirstSubgroup.value + " " + "Group";
 
                 };
+               
             var date = new Date();
             var n = date.getDay();
             var options = {
@@ -669,16 +680,20 @@ fetch('js/ODDschedule.json')
             var DayActualy = date2.toLocaleString("ru", options);
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
+            var OddWeek = Arr.weeks.niepara;
 
             var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
+            var FlagOdd = OddWeek.indexOf( DayActualyNumb ) != -1 ;
                 if (Flag == true) {
                     EvenSecondGroupSubgroup_first();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLastSubgroup.value + " " + "Group";
-                } else {
-                    OddSecondGroupSubgroup_first();
-
                 };
-
+                if (FlagOdd == true) {
+                    OddSecondGroupSubgroup_first();
+                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnLastSubgroup.value + " " + "Group";
+                };
+                
+                
             var date = new Date();
             var n = date.getDay();
             var options = {
@@ -723,16 +738,22 @@ fetch('js/ODDschedule.json')
             var DayActualy = date2.toLocaleString("ru", options);
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
+            var OddWeek = Arr.weeks.niepara;
+
             var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
-            
+            var FlagOdd = OddWeek.indexOf( DayActualyNumb ) != -1 ;
                 if (Flag == true) {
                     EvenSecondGroupSubgroup_second();
                     document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLast.value + " " + "Group";
 
-                } else {
+                };
+                if (FlagOdd == true) {
                     OddSecondGroupSubgroup_second();
+                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnLast.value + " " + "Group";
 
                 };
+                
+               
 
             var date = new Date();
             var n = date.getDay();
