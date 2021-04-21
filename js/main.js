@@ -572,11 +572,12 @@ fetch('js/ODDschedule.json')
                 element.classList.remove("current")
             });
             Days.length = 0;
-            Monday.style.opacity = "1";
-            Tuesday.style.opacity = "1";
-            Wednesday.style.opacity = "1";
-            Thursday.style.opacity = "1";
-            Friday.style.opacity = "1";
+            Monday.style.display = "block";
+            Tuesday.style.display = "block";
+            Wednesday.style.display = "block";
+            Thursday.style.display = "block";
+            Friday.style.display = "block";
+           
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
             var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
@@ -627,11 +628,11 @@ fetch('js/ODDschedule.json')
             });
             BtnsGroup[1].classList.add("current")
             Days.length = 0;
-            Monday.style.opacity = "1";
-            Tuesday.style.opacity = "1";
-            Wednesday.style.opacity = "1";
-            Thursday.style.opacity = "1";
-            Friday.style.opacity = "1";
+            Monday.style.display = "block";
+            Tuesday.style.display = "block";
+            Wednesday.style.display = "block";
+            Thursday.style.display = "block";
+            Friday.style.display = "block";
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
             var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
@@ -681,11 +682,11 @@ fetch('js/ODDschedule.json')
             });
             BtnsGroup[2].classList.add("current")
             Days.length = 0;
-            Monday.style.opacity = "1";
-            Tuesday.style.opacity = "1";
-            Wednesday.style.opacity = "1";
-            Thursday.style.opacity = "1";
-            Friday.style.opacity = "1";
+            Monday.style.display = "block";
+            Tuesday.style.display = "block";
+            Wednesday.style.display = "block";
+            Thursday.style.display = "block";
+            Friday.style.display = "block";
             var date2 = new Date();
 
             var options = {
@@ -744,18 +745,18 @@ fetch('js/ODDschedule.json')
             BtnsGroup[3].classList.add("current")
             Days.length = 0;
 
-            Monday.style.opacity = "1";
-            Tuesday.style.opacity = "1";
-            Wednesday.style.opacity = "1";
-            Thursday.style.opacity = "1";
-            Friday.style.opacity = "1";
+            Monday.style.display = "block";
+            Tuesday.style.display = "block";
+            Wednesday.style.display = "block";
+            Thursday.style.display = "block";
+            Friday.style.display = "block";
             var date2 = new Date();
 
             var options = {
                 day: 'numeric',
                 month: 'numeric',
             };
-            // BtnLast.classList.add("current")
+     
             var DayActualy = date2.toLocaleString("ru", options);
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
@@ -845,4 +846,3 @@ btn.addEventListener('click', function(e) {
 
 });
 
-const windowOuterHeight = window.outerHeight
