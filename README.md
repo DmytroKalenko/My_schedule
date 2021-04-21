@@ -1,0 +1,1 @@
+ I always forget when and what lecture I have at the university Therefore, I decided to create a service in which I can watch my class schedule and which I can edit  https://dmytrokalenko.github.io/My_schedule/
