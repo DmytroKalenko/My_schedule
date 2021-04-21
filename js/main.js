@@ -820,21 +820,24 @@ var btn = document.createElement("BUTTON");
 btn.style.cssText = `
                     height : 50px;
                     width : 50px;
-                    background-color: red;
+                    background-color: transparent;
                     position: fixed;
                     right: 4%;
                     bottom: 2%;
                     opacity: 0;
+                    background-image: url(./images/UP.svg);
                     transition: all 0.5s ease 0s;`;
 
 document.querySelector(".schedul__blok").append(btn);
 
 window.addEventListener('scroll', function(e) {
     if (this.pageYOffset > 60) {
-        btn.style.opacity = "1"
+        btn.style.opacity = "1";
+        btn.style.transform= "rotate(360deg)";
     };
     if (this.pageYOffset < 60) {
-        btn.style.opacity = "0"
+        btn.style.opacity = "0";
+        btn.style.transform= "rotate(180deg)";
     };
 });
 
