@@ -45,7 +45,7 @@ body {
                 opacity: 0;
                 transition: all .5s;
                 &.curent,
-                &:hover{
+                &:hover {
                     border: 8px solid #9d00ff;
                     background-color: aliceblue;
                 }
@@ -89,3 +89,52 @@ body {
         }
     }
 }
+
+;
+@media screen and (max-width: 650px) {
+    .container {
+        .schedul__blok {
+            .title {
+                width: 95%;
+                margin-top: 25px;
+                border: 4px solid #9473a9;
+                border-radius: 12px;
+                padding: 5px;
+                font-size: 25px;
+            }
+            .days {
+                .days__item {
+                    width: 95%;
+                    height: auto;
+                    padding-left: 0;
+                    padding: 10px;
+                    border: 4px solid #9473a9;
+                    margin: 10px 0;
+                    .item__title {
+                        margin: 5px 0 8px;
+                    }
+                    .lists {
+                        .houers {
+                            li {
+                                height: 60px;
+                                padding: 7px 5px;
+                                text-align: center;
+                                overflow: hidden;
+                            }
+                        }
+                        .lessons {
+                            li {
+                                height: 60px;
+                                padding: 7px 5px;
+                                text-align: center;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+;
