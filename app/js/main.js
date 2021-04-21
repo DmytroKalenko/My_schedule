@@ -563,7 +563,14 @@ fetch('js/ODDschedule.json')
             Thursday = document.querySelector(".days__item[data-day='4'] "),
             Friday = document.querySelector(".days__item[data-day='5'] ");
 
+        const BtnsGroup = document.querySelectorAll(".butons_filtr input")
+
+
+
         BtnFirst.addEventListener("click", function(e) {
+            BtnsGroup.forEach(element => {
+                element.classList.remove("current")
+            });
             Days.length = 0;
             Monday.style.opacity = "1";
             Tuesday.style.opacity = "1";
@@ -572,17 +579,17 @@ fetch('js/ODDschedule.json')
             Friday.style.opacity = "1";
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
-            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
-            var OddFlag = OddWeek.indexOf( DayActualyNumb ) != -1 ;
-          
-                if (Flag == true) {
-                    EvenFirstGroupSubgroup_first();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirst.value + " " + "Group";
-                };
-                if (OddFlag == true) {
-                    OddFirstGroupSubgroup_first();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnFirst.value + " " + "Group";
-                };
+            var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
+            var OddFlag = OddWeek.indexOf(DayActualyNumb) != -1;
+            BtnsGroup[0].classList.add("current")
+            if (Flag == true) {
+                EvenFirstGroupSubgroup_first();
+                document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirst.value + " " + "Group";
+            };
+            if (OddFlag == true) {
+                OddFirstGroupSubgroup_first();
+                document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnFirst.value + " " + "Group";
+            };
 
             var date = new Date();
             var n = date.getDay();
@@ -615,6 +622,10 @@ fetch('js/ODDschedule.json')
 
         });
         BtnFirstSubgroup.addEventListener("click", function(e) {
+            BtnsGroup.forEach(element => {
+                element.classList.remove("current")
+            });
+            BtnsGroup[1].classList.add("current")
             Days.length = 0;
             Monday.style.opacity = "1";
             Tuesday.style.opacity = "1";
@@ -623,20 +634,20 @@ fetch('js/ODDschedule.json')
             Friday.style.opacity = "1";
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
-            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
-            var OddFlag = OddWeek.indexOf( DayActualyNumb ) != -1 ;
+            var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
+            var OddFlag = OddWeek.indexOf(DayActualyNumb) != -1;
 
-                if (Flag == true) {
-                    EvenFirstGroupSubgroup_second();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirstSubgroup.value + " " + "Group";
+            if (Flag == true) {
+                EvenFirstGroupSubgroup_second();
+                document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnFirstSubgroup.value + " " + "Group";
 
-                };
-                if (OddFlag == true) {
-                    OddFirstGroupFirstSubgroup();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnFirstSubgroup.value + " " + "Group";
+            };
+            if (OddFlag == true) {
+                OddFirstGroupFirstSubgroup();
+                document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnFirstSubgroup.value + " " + "Group";
 
-                };
-               
+            };
+
             var date = new Date();
             var n = date.getDay();
             var options = {
@@ -665,6 +676,10 @@ fetch('js/ODDschedule.json')
             };
         });
         BtnLastSubgroup.addEventListener("click", function(e) {
+            BtnsGroup.forEach(element => {
+                element.classList.remove("current")
+            });
+            BtnsGroup[2].classList.add("current")
             Days.length = 0;
             Monday.style.opacity = "1";
             Tuesday.style.opacity = "1";
@@ -682,18 +697,18 @@ fetch('js/ODDschedule.json')
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
 
-            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
-            var FlagOdd = OddWeek.indexOf( DayActualyNumb ) != -1 ;
-                if (Flag == true) {
-                    EvenSecondGroupSubgroup_first();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLastSubgroup.value + " " + "Group";
-                };
-                if (FlagOdd == true) {
-                    OddSecondGroupSubgroup_first();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnLastSubgroup.value + " " + "Group";
-                };
-                
-                
+            var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
+            var FlagOdd = OddWeek.indexOf(DayActualyNumb) != -1;
+            if (Flag == true) {
+                EvenSecondGroupSubgroup_first();
+                document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLastSubgroup.value + " " + "Group";
+            };
+            if (FlagOdd == true) {
+                OddSecondGroupSubgroup_first();
+                document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnLastSubgroup.value + " " + "Group";
+            };
+
+
             var date = new Date();
             var n = date.getDay();
             var options = {
@@ -723,7 +738,12 @@ fetch('js/ODDschedule.json')
 
         });
         BtnLast.addEventListener("click", function(e) {
+            BtnsGroup.forEach(element => {
+                element.classList.remove("current")
+            });
+            BtnsGroup[3].classList.add("current")
             Days.length = 0;
+
             Monday.style.opacity = "1";
             Tuesday.style.opacity = "1";
             Wednesday.style.opacity = "1";
@@ -735,25 +755,26 @@ fetch('js/ODDschedule.json')
                 day: 'numeric',
                 month: 'numeric',
             };
+            // BtnLast.classList.add("current")
             var DayActualy = date2.toLocaleString("ru", options);
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
 
-            var Flag = EvenWeek.indexOf( DayActualyNumb ) != -1 ;
-            var FlagOdd = OddWeek.indexOf( DayActualyNumb ) != -1 ;
-                if (Flag == true) {
-                    EvenSecondGroupSubgroup_second();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLast.value + " " + "Group";
+            var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
+            var FlagOdd = OddWeek.indexOf(DayActualyNumb) != -1;
+            if (Flag == true) {
+                EvenSecondGroupSubgroup_second();
+                document.querySelector('.schedul__blok .title').innerHTML = "Even Week" + " " + BtnLast.value + " " + "Group";
 
-                };
-                if (FlagOdd == true) {
-                    OddSecondGroupSubgroup_second();
-                    document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnLast.value + " " + "Group";
+            };
+            if (FlagOdd == true) {
+                OddSecondGroupSubgroup_second();
+                document.querySelector('.schedul__blok .title').innerHTML = "Odd Week" + " " + BtnLast.value + " " + "Group";
 
-                };
-                
-               
+            };
+
+
 
             var date = new Date();
             var n = date.getDay();
@@ -786,15 +807,42 @@ fetch('js/ODDschedule.json')
 
 
     });
-
-
-
-
-
-
-
 document.querySelector(".days__item[data-day='1'] .item__title ").style.color = '#148da0';
 document.querySelector(".days__item[data-day='2'] .item__title ").style.color = '#609c54';
 document.querySelector(".days__item[data-day='3'] .item__title ").style.color = '#c87c65';
 document.querySelector(".days__item[data-day='4'] .item__title ").style.color = '#f5743a';
 document.querySelector(".days__item[data-day='5'] .item__title ").style.color = '#b470a1';
+
+
+
+var btn = document.createElement("BUTTON");
+btn.style.cssText = `
+                    height : 50px;
+                    width : 50px;
+                    background-color: red;
+                    position: fixed;
+                    right: 4%;
+                    bottom: 2%;
+                    opacity: 0;
+                    transition: all 0.5s ease 0s;`;
+
+document.querySelector(".schedul__blok").append(btn);
+
+window.addEventListener('scroll', function(e) {
+    if (this.pageYOffset > 60) {
+        btn.style.opacity = "1"
+    };
+    if (this.pageYOffset < 60) {
+        btn.style.opacity = "0"
+    };
+});
+
+btn.addEventListener('click', function(e) {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+});
+
+const windowOuterHeight = window.outerHeight
