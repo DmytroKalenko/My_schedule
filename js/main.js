@@ -546,7 +546,7 @@ fetch('js/ODDschedule.json')
         };
         var DayActualy = date2.toLocaleString("ru", options);
         var DayActualyNumb = Number(DayActualy);
-        var EvenWeek = Arr.weeks.para;
+
 
 
 
@@ -565,7 +565,19 @@ fetch('js/ODDschedule.json')
 
         const BtnsGroup = document.querySelectorAll(".butons_filtr input")
 
+        const Body = document.body;
+        const Container = document.querySelector('.container');
 
+
+        BtnsGroup.forEach(element => {
+            element.addEventListener("click", function(e) {
+                Container.style.cssText = `
+                top: auto;
+                left: auto;
+                transform: none;
+                max-width: 1800px;`
+            })
+        });
 
         BtnFirst.addEventListener("click", function(e) {
             BtnsGroup.forEach(element => {
@@ -577,7 +589,12 @@ fetch('js/ODDschedule.json')
             Wednesday.style.display = "block";
             Thursday.style.display = "block";
             Friday.style.display = "block";
-           
+            Body.style.cssText = `
+                                height: auto;
+                                overflow: visible;`
+
+
+
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
             var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
@@ -633,6 +650,11 @@ fetch('js/ODDschedule.json')
             Wednesday.style.display = "block";
             Thursday.style.display = "block";
             Friday.style.display = "block";
+            Body.style.cssText = `
+                                height: auto;
+                                overflow: visible;`
+
+
             var EvenWeek = Arr.weeks.para;
             var OddWeek = Arr.weeks.niepara;
             var Flag = EvenWeek.indexOf(DayActualyNumb) != -1;
@@ -687,6 +709,11 @@ fetch('js/ODDschedule.json')
             Wednesday.style.display = "block";
             Thursday.style.display = "block";
             Friday.style.display = "block";
+            Body.style.cssText = `
+                                height: auto;
+                                overflow: visible;`
+
+
             var date2 = new Date();
 
             var options = {
@@ -750,13 +777,17 @@ fetch('js/ODDschedule.json')
             Wednesday.style.display = "block";
             Thursday.style.display = "block";
             Friday.style.display = "block";
+            Body.style.cssText = `
+                                height: auto;
+                                overflow: visible;`
+
             var date2 = new Date();
 
             var options = {
                 day: 'numeric',
                 month: 'numeric',
             };
-     
+
             var DayActualy = date2.toLocaleString("ru", options);
             var DayActualyNumb = Number(DayActualy);
             var EvenWeek = Arr.weeks.para;
@@ -833,11 +864,11 @@ document.querySelector(".schedul__blok").append(btn);
 window.addEventListener('scroll', function(e) {
     if (this.pageYOffset > 60) {
         btn.style.opacity = "1";
-        btn.style.transform= "rotate(360deg)";
+        btn.style.transform = "rotate(360deg)";
     };
     if (this.pageYOffset < 60) {
         btn.style.opacity = "0";
-        btn.style.transform= "rotate(180deg)";
+        btn.style.transform = "rotate(180deg)";
     };
 });
 
@@ -848,4 +879,3 @@ btn.addEventListener('click', function(e) {
     });
 
 });
-
